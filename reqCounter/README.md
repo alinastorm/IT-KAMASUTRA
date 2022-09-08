@@ -4,3 +4,4 @@
 Починить счетчик requests
 Добавить logo
 ---
+Запуск npm start

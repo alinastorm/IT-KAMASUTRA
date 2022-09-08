@@ -1,1 +1,2 @@
 1.0.0 init: create project. init ts
+1.0.1 feat: http routes favicon
