@@ -1,0 +1,27 @@
+{
+  "name": "counter",
+  "version": "1.0.0",
+  "description": "requests counter\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[Dhome work requests counter",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run tsc & node dist/index.js",
+    "tsc": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alinastorm/IT-KAMASUTRA.git"
+  },
+  "keywords": [
+    "learn"
+  ],
+  "author": "AlexGr",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alinastorm/IT-KAMASUTRA/issues"
+  },
+  "homepage": "https://github.com/alinastorm/IT-KAMASUTRA#readme",
+  "devDependencies": {
+    "typescript": "^4.8.2"
+  }
+}
