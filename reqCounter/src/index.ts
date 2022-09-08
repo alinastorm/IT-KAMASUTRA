@@ -16,11 +16,11 @@ http
 		const routes: { [key: string]: any } = {
 			'/': () => res.write(`IT-CAMASUTRA ${requestsCount++}`),
 			'/favicon.ico': () => {
-				res.setHeader('Content-Type', 'image/x-icon');
+				res.setHeader('Content-Type', 'image/x-icon')
 				// Location of your favicon in the filesystem.
-				const favicon = path.join(__dirname, 'public/icons','favicon.ico');
+				const favicon = path.join(__dirname, 'public/icons', 'favicon.ico')
 				const readFavicon = fs.createReadStream(favicon)
-				readFavicon.pipe(res);
+				readFavicon.pipe(res)								
 			},
 			"students": () => res.write('STUDENTS'),
 			"courses": () => res.write('FRONT + BACK'),
@@ -37,7 +37,7 @@ http
 			console.error('index error:', error);
 		}
 		//send response
-		res.end()
+		if (url != "/favicon.ico") res.end()
 	}).listen(process.env.SERVERPORT);
 //logging start
 console.log(`\x1b[34mHTTP-server started port: ${process.env.SERVERPORT}`);
