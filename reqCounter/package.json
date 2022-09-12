@@ -8,7 +8,7 @@
     "start": "npm run tsc & node -r dotenv/config dist/index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon -e ts --exec \"npm run compile\"",
-    "compile": "tsc && node -r dotenv/config dist/index.js",
+    "compile": "tsc && node --inspect -r dotenv/config dist/index.js",
     "tsc": "tsc"
   },
   "repository": {

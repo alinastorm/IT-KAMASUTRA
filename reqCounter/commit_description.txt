@@ -2,3 +2,4 @@
 1.0.1 feat: http routes favicon
 1.0.2 fix: favicon return -res.end
 1.0.3 feat: fileStream, fix: favicon, refactor: routes
+1.0.4 feat: nodeJs --inspect mpde for chrom debugger
